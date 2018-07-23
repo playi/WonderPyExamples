@@ -49,7 +49,7 @@ They're reasonably well commented, and aim to do things one step at a time.
 ### [tutorial/01\_hello\_world.py](tutorial/01_hello_world.py)
 A simple example which connects to a robot and plays two greeting sounds and does some simple control of the LEDs.  
 This example works with Dash, Dot, or Cue.
-### [tutorial/02\_sensors.py](tutorial/01_sensors.py)
+### [tutorial/02\_sensors.py](tutorial/02_sensors.py)
 Connects to a robot and maps the realtime accelerometer data into Roll and Tilt, and then maps those to control the Hue, Saturation, and Brightness of the robot's color LEDs.  It also uses the realtime button status from the robot to control the pattern on the LED eyering.  
 This example works with Dash, Dot, or Cue.
 ### [tutorial/03\_motors.py](tutorial/03_motors.py)
