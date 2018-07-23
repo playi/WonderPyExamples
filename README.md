@@ -5,7 +5,7 @@ This is a collection of examples and tutorials for the [WonderPy Python API](htt
 At an "Alpha" release. It's ready to be tried out by folks who are willing to live with a few more rough-edges than one would want, and ideally who can provide constructive criticism.
 
 ## Known Issues and To-Do's
-Please see the to-do list at [WonderPy](https://github.com/playi/WonderPy).
+Please see the to-do list at [WonderPy](https://github.com/playi/WonderPy/blob/master/README.md#known-issues-and-to-dos).
 
 
 # Setup
