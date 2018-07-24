@@ -1,5 +1,6 @@
 # Sketcher
-A demo where a Dash or Cue with SketchKit can do a reasonable job of physically drawing vector-based SVG image files.
+[SketchKit](https://store.makewonder.com/pages/sketch-kit) is a physical accessory for Dash and Cue which allows the robot to draw with a marker.
+This example demonstrates the robot doing a reasonable job of physically drawing vector-based SVG image files.
 
 ## Usage
 * From the command-line you can run :  
@@ -13,7 +14,7 @@ A demo where a Dash or Cue with SketchKit can do a reasonable job of physically 
 
 ## Options
 ### Drawing Size
-The robot will resize the drawing so that it fits snugly in a bounding-box which is 90cm wide by 60cm high.
+The robot will resize the drawing so that it fits snugly in a bounding-box which by default is 90cm wide by 60cm high.
   The size of this box can be changed by including a `--box width_cm height_cm` option.  
   For example, to draw the octocat within a 30cm x 30cm region:  
   `python misc/sketcher.py --file assets/svg_files/octocat.svg --box 30 30`  

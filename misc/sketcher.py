@@ -46,8 +46,8 @@ class MyClass(object):
     def start(self):
         parser = argparse.ArgumentParser(description='Options.')
         self.setup_argument_parser(parser)
-        self.parse_args(parser)
-        WonderPy.core.wwMain.start(self)
+        args = self.parse_args(parser)
+        WonderPy.core.wwMain.start(self, args)
 
     def setup_argument_parser(_, parser):
         WonderPy.core.wwBTLEMgr.WWBTLEManager.setup_argument_parser(parser)
@@ -73,6 +73,8 @@ class MyClass(object):
             BOUNDING_BOX_HEIGHT_CM = args.box[1]
         print("Bounding box: %0.1fcm wide x %0.1f cm tall (robot at center)" %
               (BOUNDING_BOX_WIDTH_CM, BOUNDING_BOX_HEIGHT_CM))
+
+        return args
 
     def on_connect(self, robot):
         Thread(target=self.async_1, args=(robot,)).start()
