@@ -7,20 +7,10 @@ from WonderPy.util import wwMath
 
 class MyClass(object):
 
-    def on_connect(self, robot):
-        Thread(target=self.thread_turn_around, args=(robot,)).start()
-
-    def thread_turn_around(self, robot):
-
-        while True:
-            if robot.sensors.distance_rear.distance_approximate < 10:
-                print("Hey, there's something behind me!")
-                robot.cmds.body.do_turn(180, 360)
-            robot.block_until_sensors()
-
     def on_sensors(self, robot):
         """
-        Print the distance data from each of the three distance sensors.
+        Print the distance data from each of the three distance sensors,
+        also move the robot's head and body in reaction.
         See the comments in wwSensorDistance.py for more details about this sensor.
         """
 
@@ -51,6 +41,12 @@ class MyClass(object):
         front_normalized = wwMath.inverse_lerp(0.0, 50.0, front)
         head_tilt        = wwMath.lerp(robot.head_tilt_min_deg, robot.head_tilt_max_deg, front_normalized)
         robot.cmds.head.stage_tilt_angle(head_tilt)
+
+        # move the robot away from nearby obstacles
+        dist_norm_front = 1.0 - wwMath.clamp01(front/10.0)
+        dist_norm_rear  = 1.0 - wwMath.clamp01(rer.distance_approximate/10.0)
+        dist_norm_delta = dist_norm_rear - dist_norm_front
+        robot.cmds.body.stage_linear_angular(dist_norm_delta * 40.0, 0)
 
 
 if __name__ == "__main__":
