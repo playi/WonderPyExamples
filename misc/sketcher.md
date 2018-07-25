@@ -45,14 +45,19 @@ The robot can only draw lines, not filled areas. However, very many SVG files us
 
 *octocat image from [here](https://visualpharm.com/free-icons/github-595b40b85ba036ed117dc155).
 
+
 # Contribute
 Please check the list of issues and todo's at the [WonderPy repository on github](https://github.com/playi/WonderPy/issues).  
-Pull-Requests are welcome.
+Pull-Requests are welcome.  
+Feature requests for the API should also be sent as a [new Issue in github](https://github.com/playi/WonderPy/issues).  
 
 # Get Help
-If there's a specific bug or problem with the API, please check the [outstanding issues](https://github.com/playi/WonderPy/issues) and if it's not already covered, create a new one.  
-If you have a more general question such as "how do I..." or "has anyone done ..." or you have a tip you'd like to share, please visit [robotics.stackexchange.com](https://robotics.stackexchange.com) and use the tag **wonderworkshop** .
+### Report Bugs
+If there's a specific bug or problem with the API, please check the [outstanding issues in github](https://github.com/playi/WonderPy/issues) and if it's not already covered, create a new one.  
 
-# Share your work !
+### Ask for Advice
+If you have a more general question such as "how would I approach doing .." or you have a tip you'd like to share, please visit [stackoverflow](https://stackoverflow.com/) and be sure to tag your post with **wonderworkshop**.
+
+# Sharing your work ?
 Got a great picture or video ?  
-Share your Dash, Dot or Cue work on [Twitter](https://twitter.com/WonderWorkshop) or [Instagram](https://www.instagram.com/wonderworkshop/) and tag **@WonderWorkshop** !
+If you're sharing your Dash, Dot or Cue work on [Twitter](https://twitter.com/WonderWorkshop) or [Instagram](https://www.instagram.com/wonderworkshop/), remember to tag **@WonderWorkshop** !
