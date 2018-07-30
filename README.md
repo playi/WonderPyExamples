@@ -2,10 +2,14 @@
 This is a collection of examples and tutorials for the [WonderPy Python API](https://github.com/playi/WonderPy) for working with WonderWorkshop robots.
 
 # Project Status
-At an "Alpha" release. It's ready to be tried out by folks who are willing to live with a few more rough-edges than one would want, and ideally who can provide constructive criticism.
+At an "Alpha" release. It's ready to be tried out by folks who are willing to live with a few more rough-edges than one would want, and ideally who can provide constructive criticism.  
 
-## Known Issues and To-Do's
-Please see the to-do list at [WonderPy](https://github.com/playi/WonderPy/blob/master/README.md#known-issues-and-to-dos).
+Please see the list of current bugs and other to-do items at [WonderPy](https://github.com/playi/WonderPy/blob/master/README.md#known-issues-and-to-dos).
+
+# Documentation
+* [WonderPy readme](https://github.com/playi/WonderPy/blob/master/README.md)
+* [WonderPy Robot Reference Manual](https://github.com/playi/WonderPy/blob/master/doc/WonderPy.md)
+* [Tutorials and other examples](https://github.com/playi/WonderPyExamples)
 
 
 # Setup
@@ -41,6 +45,10 @@ This will install the WonderPy module and its dependencies.
 At this point you should be ready to go !  
 Again, assuming you are inside the _WonderPyExamples_ folder:
 `python tutorial/01_hello_world.py`
+
+## PyCharm
+At this point, opening the examples in PyCharm should work well.
+You might need to double-check that PyCharm is using the virtualenv 'venv' folder you set up.
 
 # Tutorial Examples
 The [_tutorial_ folder](tutorial/) includes examples which are a good place to get the hang of things.  
@@ -107,10 +115,6 @@ Upon launching any of the examples, the app will scan for robots for at least 5 
 
 * Connect ASAP to any robot named 'sally', no matter what type of robot it is.  
 `python tutorial/01_hello_world.py --connect-eager --connect-name "sally"`  
-
-# Developing
-## PyCharm
-At this point, opening the examples in PyCharm should work fairly well.  
 
 
 # Coordinate Systems
