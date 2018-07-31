@@ -118,7 +118,7 @@ Upon launching any of the examples, the app will scan for robots for at least 5 
 
 
 # Coordinate Systems
-The python API uses a right-handed coordinate system with:
+WonderPy uses a right-handed coordinate system with:
 
 * +X to the right of the robot  (aka Right)  
 
@@ -138,10 +138,10 @@ The python API uses a right-handed coordinate system with:
 | ![](doc/python_coordinates_position.jpg) | ![](doc/python_coordinates_orientation.jpg) |
 
 **Note!**  
-The json representation of sensors and commands also uses a right-handed system, but with +X as Forward and +Y as Left, and rotations that follow.  In normal use of the Python API you should not encounter this coordinate system tho.
+The json representation of sensors and commands also uses a right-handed system, but with +X as Forward and +Y as Left, and rotations that follow.  In normal use of the WonderPy you should not encounter this coordinate system tho.
 
 # Units
-The python API uses these units:
+WonderPy uses these units:
 
 * Distances are in Centimeters
 * Angles are in Degrees
@@ -161,5 +161,7 @@ If there's a specific bug or problem with the API, please check the [outstanding
 If you have a more general question such as "how would I approach doing .." or you have a tip you'd like to share, please visit [stackoverflow](https://stackoverflow.com/) and be sure to tag your post with **wonderworkshop**.
 
 # Sharing your work ?
-Got a great picture or video ?  
-If you're sharing your Dash, Dot or Cue work on [Twitter](https://twitter.com/WonderWorkshop) or [Instagram](https://www.instagram.com/wonderworkshop/), remember to tag **@WonderWorkshop** !
+Made something cool ? We'd love to see it !  
+Send your photos, videos, and links to developers@makewonder.com .
+
+( Note, we can't promise a reply to all emails )
