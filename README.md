@@ -83,7 +83,8 @@ This is a moderately complex example for working with the [SketchKit Accessory](
 This example has its own documention, in the file [misc/sketcher.md](misc/sketcher.md).
 ### [misc/sketchStars.py](misc/sketchStars.py)
 A simple example of working with the [SketchKit Accessory](https://www.makewonder.com/dash##accessories).  This example simply draws classic stars.
-
+### [misc/twitterBot.py](misc/twitterBot.py)
+An example of how to use Twitter to send commands to the robot. This example requires a Twitter account and an active Twitter Application (https://apps.twitter.com/)
 
 		
 ## Robot Connection Options
