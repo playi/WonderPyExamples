@@ -1,8 +1,8 @@
 # WonderPyExamples
-This is a collection of examples and tutorials for the [WonderPy Python API](https://github.com/playi/WonderPy) for working with WonderWorkshop robots.
+This is a collection of examples and tutorials for the [WonderPy Python API](https://github.com/playi/WonderPy) for working with [WonderWorkshop](https://www.makewonder.com) robots.
 
 # Project Status
-At an "Alpha" release. It's ready to be tried out by folks who are willing to live with a few more rough-edges than one would want, and ideally who can provide constructive criticism.  
+At an "Alpha" release. It's ready to be tried out by folks who are willing to live with a few rough-edges and can provide constructive criticism. We look forward to your feedback!
 
 Please see the list of current bugs and other to-do items at [WonderPy](https://github.com/playi/WonderPy/blob/master/README.md#known-issues-and-to-dos).
 
@@ -138,7 +138,7 @@ WonderPy uses a right-handed coordinate system with:
 | ![](doc/python_coordinates_position.jpg) | ![](doc/python_coordinates_orientation.jpg) |
 
 **Note!**  
-The json representation of sensors and commands also uses a right-handed system, but with +X as Forward and +Y as Left, and rotations that follow.  In normal use of the WonderPy you should not encounter this coordinate system tho.
+The json representation of sensors and commands also uses a right-handed system, but with +X as Forward and +Y as Left, and rotations that follow.  In normal use of the WonderPy you should not encounter this coordinate system.
 
 # Units
 WonderPy uses these units:
@@ -152,13 +152,13 @@ WonderPy uses these units:
 Pull requests are welcome!  
 Please check the list of issues and todo's at the [WonderPy repository on github](https://github.com/playi/WonderPy/issues).  
 
-Additional examples in the [WonderPyExamples repository](https://github.com/WonderPyExamples) would also be great:
+Additional examples in the [WonderPyExamples repository](https://github.com/WonderPyExamples) are welcome. Here are some ideas:
 
 * Integrations with other cool packages
 * IoT integrations
 * Demos with the Sketch Kit accessory
 
-To add an example, create a Fork and Pull Request. Be sure to update this README with a brief description of the new example, and also update requirements.txt if there are new dependencies.
+To add an example, create a Fork and Pull Request. Be sure to update this README with a brief description of the new example, and also update `requirements.txt` if there are new dependencies.
 
 Feature requests for the API should be sent as [new Issues in github](https://github.com/playi/WonderPy/issues).  
 
@@ -169,8 +169,8 @@ If there's a specific bug or problem with the API, please check the [outstanding
 ### Ask for Advice
 If you have a more general question such as "how would I approach doing .." or you have a tip you'd like to share, please visit [stackoverflow](https://stackoverflow.com/) and be sure to tag your post with **wonderworkshop**.
 
-# Sharing your work ?
-Made something cool ? We'd love to see it !  
+# Sharing your work?
+Made something cool? We'd love to see it!  
 Send your photos, videos, and links to developers@makewonder.com .
 
-( Note, we can't promise a reply to all emails )
+( Note, we can't promise a reply to all emails. )
