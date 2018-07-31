@@ -158,6 +158,8 @@ Additional examples in the [WonderPyExamples repository](https://github.com/Wond
 * IoT integrations
 * Demos with the Sketch Kit accessory
 
+To add an example, create a Fork and Pull Request. Be sure to update this README with a brief description of the new example, and also update requirements.txt if there are new dependencies.
+
 Feature requests for the API should be sent as [new Issues in github](https://github.com/playi/WonderPy/issues).  
 
 # Get Help
