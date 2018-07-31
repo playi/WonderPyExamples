@@ -54,7 +54,7 @@ TWITTER_LANG = ["en"]
 
 def is_numeric(s):
     '''
-    Determies if a string is numeric (including negative and decimal numbers)
+    Determines if a string is numeric (including negative and decimal numbers)
     :param s: string to check
     :return: Bool
     '''
