@@ -1,5 +1,5 @@
 # WonderPyExamples
-This is a collection of examples and tutorials for the [WonderPy Python API](https://github.com/playi/WonderPy) for working with [WonderWorkshop](https://www.makewonder.com) robots.
+This is a collection of examples and tutorials for the [WonderPy Python API](https://github.com/playi/WonderPy) for working with [Wonder Workshop](https://www.makewonder.com) robots.
 
 # Project Status
 At an "Alpha" release. It's ready to be tried out by folks who are willing to live with a few rough-edges and can provide constructive criticism. We look forward to your feedback!
@@ -79,10 +79,10 @@ Only works with Dash and Cue.
 Read the robot's head position as a sensor!  
 Only works with Dash and Cue.
 ### [misc/sketcher.py](misc/sketcher.py)
-This is a moderately complex example for working with the [SketchKit Accessory](https://store.makewonder.com/pages/sketch-kit).  This example loads an arbitrary (but thoughtfully selected) SVG graphics file, and has the robot physically draw the file's image with the sketchkit pen.  
+This is a moderately complex example for working with the [Sketch Kit Accessory](https://store.makewonder.com/pages/sketch-kit).  This example loads an arbitrary (but thoughtfully selected) SVG graphics file, and has the robot physically draw the file's image with the sketchkit pen.  
 This example has its own documention, in the file [misc/sketcher.md](misc/sketcher.md).
 ### [misc/sketchStars.py](misc/sketchStars.py)
-A simple example of working with the [SketchKit Accessory](https://www.makewonder.com/dash##accessories).  This example simply draws classic stars.
+A simple example of working with the [Sketch Kit Accessory](https://www.makewonder.com/dash##accessories).  This example simply draws classic stars.
 ### [misc/twitterBot.py](misc/twitterBot.py)
 An example of how to use Twitter to send commands to the robot. This example requires a Twitter account and an active Twitter Application (https://apps.twitter.com/)
 
