@@ -79,7 +79,7 @@ Only works with Dash and Cue.
 Read the robot's head position as a sensor!  
 Only works with Dash and Cue.
 ### [misc/sketcher.py](misc/sketcher.py)
-This is a moderately complex example for working with the [Sketch Kit Accessory](https://store.makewonder.com/pages/sketch-kit).  This example loads an arbitrary (but thoughtfully selected) SVG graphics file, and has the robot physically draw the file's image with the sketchkit pen.  
+This is a moderately complex example for working with the [Sketch Kit Accessory](https://store.makewonder.com/pages/sketch-kit).  This example loads an arbitrary (but thoughtfully selected) SVG graphics file, and has the robot physically draw the file's image with the Sketch Kit marker.  
 This example has its own documention, in the file [misc/sketcher.md](misc/sketcher.md).
 ### [misc/sketchStars.py](misc/sketchStars.py)
 A simple example of working with the [Sketch Kit Accessory](https://www.makewonder.com/dash##accessories).  This example simply draws classic stars.
