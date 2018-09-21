@@ -25,23 +25,24 @@ class MyClass(object):
     def thread_hello(self, robot):
         # robot is the robot we've connected to.
 
+        # get a short list of sounds to play for this robot
         sound_names = self.get_hello_sounds(robot)
 
         for sound_name in sound_names:
             # for each sound in the list: turn on the lights, play the sound, dim the lights, then pause a little.
-            print("On %s, setting all RGB lights to white." % (robot.name))
+            print("On robot %s, setting all RGB lights to white." % (robot.name))
             robot.cmds.RGB.stage_all(1, 1, 1)
 
-            print("On %s, playing '%s'." % (robot.name, sound_name))
+            print("On robot %s, playing '%s'." % (robot.name, sound_name))
             robot.cmds.media.do_audio(sound_name)
 
-            print("On %s, setting all RGB lights to dim." % (robot.name))
+            print("On robot %s, setting all RGB lights to dim." % (robot.name))
             robot.cmds.RGB.stage_all(0.2, 0.2, 0.2)
 
             print("Waiting a little bit.")
             time.sleep(3)
 
-        print("On %s, setting all RGB lights to off." % (robot.name))
+        print("On robot %s, setting all RGB lights to off." % (robot.name))
         robot.cmds.RGB.stage_all(0, 0, 0)
         print("That's all for now.")
 
